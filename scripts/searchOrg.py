@@ -52,12 +52,11 @@ rules = {
     "Picatic API key": "sk_live_[0-9a-z]{32}",
     "PayPal Braintree access token": "access_token\$production\$[0-9a-z]{16}\$[0-9a-f]{32}",
     "Google API key": "AIza[0-9A-Za-z\\-_]{35}",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
+    "Github Refresh Token": "ghr_[0-9a-zA-Z]{76}",
+    "Github App Token": "(ghu|ghs)_[0-9a-zA-Z]{36}",
+    "Github OAuth Access Token": "gho_[0-9a-zA-Z]{36}",
+    "Github Personal Access Token": "ghp_[0-9a-zA-Z]{36}",
+    "NPM Token": "[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}",
 }
 
 for key in rules:
